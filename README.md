@@ -12,18 +12,18 @@ I provided the following serialized packages to our team members for minimizing 
 
 1. MRM_methods
 
-Auto-calculating the output peptide mass is followed by filtering peptides by selected ranges of mass. User can only give their voltage setting by "ramping" or "seperate", and then input files for MRM will generate.
+    Auto-calculating the output peptide mass is followed by filtering peptides by selected ranges of mass. User can only give their voltage setting by "ramping" or "seperate", and then input files for MRM will generate.
 
 2. Preprocessing_Replicate_Name
 
-After MRM expirements, we can obtain a output file including "replicate_name" and peptide's signal such as area, background, height etc.. It will provide a function to catogorize data by "replicate_name" for further analysis.
+    After MRM expirements, we can obtain a output file including "replicate_name" and peptide's signal such as area, background, height etc.. It will provide a function to catogorize data by "replicate_name" for further analysis.
 
 3. Prediction
 
-I provided 4 methods, including "Bezier curve", "Regression", "SG-smoothing" and "Bezier follows SG-smoothing" to fit the correlation between voltage and quantity, so that the best voltage charge setting should be found.
+    I provided 4 methods, including "Bezier curve", "Regression", "SG-smoothing" and "Bezier follows SG-smoothing" to fit the correlation between voltage and quantity, so that the best voltage charge setting should be found.
 
 4. Check
 
-To understand the accuracy of results from previous predictions, we used validation dataset to estimate the accuracy by prediction-target difference and MSE.
+    To understand the accuracy of results from previous predictions, we used validation dataset to estimate the accuracy by prediction-target difference and MSE.
 
 ## Demo
